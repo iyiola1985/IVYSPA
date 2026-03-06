@@ -113,9 +113,10 @@ ul {
 }
 
 .nav__logo-img {
-  height: 42px;
+  height: 52px;
   width: auto;
   object-fit: contain;
+  min-height: 52px;
 }
 
 .nav__links {
@@ -127,7 +128,7 @@ ul {
 .nav__link {
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--text-on-dark);
   position: relative;
 }
@@ -148,7 +149,8 @@ ul {
 }
 
 .nav__cta {
-  padding: 10px 24px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
   background: var(--gradient-primary);
   color: white !important;
   border-radius: 50px;
@@ -1750,7 +1752,18 @@ ul {
   }
   
   .nav__logo-img {
-    height: 36px;
+    height: 44px;
+    min-height: 44px;
+  }
+  
+  .nav__links .nav__link {
+    font-size: 1.2rem;
+    padding: 12px 0;
+  }
+  
+  .nav__links .nav__cta {
+    font-size: 1.15rem;
+    padding: 14px 28px;
   }
   
   .nav__links {
@@ -2048,7 +2061,12 @@ ul {
   }
   
   .nav__logo-img {
-    height: 32px;
+    height: 40px;
+    min-height: 40px;
+  }
+  
+  .nav__links .nav__link {
+    font-size: 1.2rem;
   }
   
   .section {
